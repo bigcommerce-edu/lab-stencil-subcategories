@@ -66,6 +66,8 @@
         "switch_url": "https://cornerstone-warm-demo.mybigcommerce.com"
       }
     ],
+    "color-subcat-bg": "#f3f3f3",
+    "color-subcat-border": "#555555",
     "show_channels": false,
     "hide_breadcrumbs": false,
     "hide_page_heading": false,
