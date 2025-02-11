@@ -30,11 +30,13 @@ category:
 {{/unless}}
 {{{category.description}}}
 <div class="page">
+    {{#if category.subcategories}}
+    
+        <p>Subcategory listing placeholder</p>
+
+    {{else}}
+
     {{#if category.faceted_search_enabled}}
-        <aside class="page-sidebar" id="faceted-search-container">
-            {{> components/category/sidebar}}
-        </aside>
-    {{else if category.subcategories}}
         <aside class="page-sidebar" id="faceted-search-container">
             {{> components/category/sidebar}}
         </aside>
@@ -47,6 +49,8 @@ category:
     <main class="page-content" id="product-listing-container">
         {{> components/category/product-listing}}
     </main>
+
+    {{/if}}
 
     <div class="page-region">
         {{{region name="category_below_content"}}}
