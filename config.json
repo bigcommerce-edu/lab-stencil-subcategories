@@ -1,6 +1,6 @@
 {
-  "name": "Cornerstone",
-  "version": "6.17.0",
+  "name": "My Stencil Theme",
+  "version": "0.1.0",
   "template_engine": "handlebars_v4",
   "meta": {
     "price": 0,
