@@ -30,16 +30,13 @@ category:
 {{/unless}}
 {{{category.description}}}
 <div class="page">
-    {{! TODO: Add subcategory list logic to category page }}
-    {{!     - Wrap page content in conditional to check for subcategories }}
-    {{!     - Add placeholder for subcategory listing }}
-    {{!     - Move sidebar logic into else block }}
-    {{!     - Get rid of existing category.subcategories else block, which isn't needed anymore }}
+    {{#if category.subcategories}}
+    
+        <p>Subcategory listing placeholder</p>
+
+    {{else}}
+
     {{#if category.faceted_search_enabled}}
-        <aside class="page-sidebar" id="faceted-search-container">
-            {{> components/category/sidebar}}
-        </aside>
-    {{else if category.subcategories}}
         <aside class="page-sidebar" id="faceted-search-container">
             {{> components/category/sidebar}}
         </aside>
@@ -52,6 +49,8 @@ category:
     <main class="page-content" id="product-listing-container">
         {{> components/category/product-listing}}
     </main>
+
+    {{/if}}
 
     <div class="page-region">
         {{{region name="category_below_content"}}}
