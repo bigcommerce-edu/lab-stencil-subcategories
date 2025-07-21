@@ -1,0 +1,23 @@
+<ul class="subcategoryGrid">
+  {{#each subcategories}}
+  <li>
+    <a href="{{url}}" class="subcategoryGrid-card">
+      <div class="subcategoryGrid-img">
+        {{> components/common/responsive-img
+            image=image
+            fallback_size="500x500"
+            lazyload=../theme_settings.lazyload_mode
+            default_image=../theme_settings.default_image_product
+        }}
+      </div>
+      <div class="subcategoryGrid-body">
+        <h2>{{name}}</h2>
+        <span>
+          Shop {{product_count}} 
+          {{#if product_count '>' 1}}products{{else}}product{{/if}}
+        </span>
+      </div>
+    </a>
+  </li>
+  {{/each}}
+</ul>

@@ -32,7 +32,9 @@ category:
 <div class="page">
     {{#if category.subcategories}}
     
-        <p>Subcategory listing placeholder</p>
+        {{> components/category/subcategory-listing 
+            subcategories=category.subcategories
+        }}
 
     {{else}}
 
