@@ -25,6 +25,9 @@
 .subcategoryGrid-card {
   display: block;
   width: 100%;
+  // TODO: Replace hard-coded colors with Stencil theme values
+  //    - Use stencilColor()
+  //    - Utilize `color-subcat-border` and `color-subcat-bg` settings
   border: 1px solid black;
   background-color: gray;
   text-align: center;
