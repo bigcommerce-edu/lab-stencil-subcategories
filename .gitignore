@@ -2,6 +2,7 @@ node_modules/
 .stencil
 config.stencil.json
 secrets.stencil.json
+settings.local.json
 .DS_Store
 assets/css-artifacts
 assets/js/bundle.js
@@ -11,3 +12,4 @@ vendor/bundle
 *.js.map
 *.zip
 .idea/
+ARTIFACTS/*
