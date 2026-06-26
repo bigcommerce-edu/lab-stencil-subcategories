@@ -15,27 +15,6 @@ This project supports guided lab exercises for a small subcategory listing featu
 
 To observe the effects of this feature, your BigCommerce store should have at least one top-level category with subcategories.
 
-### Clone the Cornerstone Theme
-
-```shell
-git clone https://github.com/bigcommerce/cornerstone.git lab-stencil-subcategories
-cd lab-stencil-subcategories
-npm install
-```
-
-### Stencil Setup
-
-* [Install the Stencil CLI](https://developer.bigcommerce.com/docs/storefront/stencil/cli/install)
-* [Create an API token and start the dev server](https://developer.bigcommerce.com/docs/storefront/stencil/cli/development-server)
-
 ## Lab Steps
 
 See [docs/TUTORIAL.md](docs/TUTORIAL.md) for the step-by-step lab walkthrough and diff links.
-
-## Finished State
-
-Set up with all features complete:
-
-```shell
-git clone git@github.com:bigcommerce-edu/lab-stencil-subcategories.git
-```
