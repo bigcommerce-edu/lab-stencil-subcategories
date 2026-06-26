@@ -14,3 +14,7 @@ This project supports guided lab exercises for a small subcategory listing featu
 #### Catalog Data
 
 To observe the effects of this feature, your BigCommerce store should have at least one top-level category with subcategories.
+
+## Lab Steps
+
+See [docs/TUTORIAL.md](docs/TUTORIAL.md) for the step-by-step lab walkthrough and diff links.
