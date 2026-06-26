@@ -53,8 +53,6 @@ Each step is a `<tag>-pre` (TODO placeholders) commit immediately followed by a 
 | 3 | `lab-03` | Add subcategory listing styles |
 | 4 | `lab-04` | Add theme config settings for styles |
 
-> Note: the current history bundles the initial lab TODOs into a single early commit (`lab-01-pre`), which does not yet satisfy the strict 1:1 TODO → code rule. Restructuring those into per-step TODO/code pairs is a planned follow-up effort.
-
 ## File Removal - Protected Paths
 
 When creating a clean orphan branch, the following additional file paths should be protected from removal:

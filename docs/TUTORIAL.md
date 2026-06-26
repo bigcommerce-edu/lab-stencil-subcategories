@@ -1,8 +1,23 @@
 # Stencil Subcategories Lab Tutorial
 
-> Based on version `1.0.0`.
+> Based on version `1.0.1`.
 
 This tutorial walks through the **Add Subcategories Listing** exercise (tag prefix `lab`), which adds a subcategory listing to the category page of a Stencil (Cornerstone) theme. Each step links to a split diff between its `*-pre` (TODO placeholders) and `*-post` (implementation) tags.
+
+## Setup
+
+### Clone the Cornerstone Theme
+
+```shell
+git clone https://github.com/bigcommerce/cornerstone.git lab-stencil-subcategories
+cd lab-stencil-subcategories
+npm install
+```
+
+### Stencil Setup
+
+* [Install the Stencil CLI](https://developer.bigcommerce.com/docs/storefront/stencil/cli/install)
+* [Create an API token and start the dev server](https://developer.bigcommerce.com/docs/storefront/stencil/cli/development-server)
 
 ## Lab Steps
 
@@ -12,3 +27,11 @@ This tutorial walks through the **Add Subcategories Listing** exercise (tag pref
 * [Step 4: Add theme config settings for styles](https://github.com/bigcommerce-edu/lab-stencil-subcategories/compare/lab-04-pre...lab-04-post?diff=split)
 
 [Full Lab Diff](https://github.com/bigcommerce-edu/lab-stencil-subcategories/compare/start...complete?diff=split)
+
+## Finished State
+
+Set up with all features complete:
+
+```shell
+git clone git@github.com:bigcommerce-edu/lab-stencil-subcategories.git
+```
